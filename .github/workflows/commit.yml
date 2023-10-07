@@ -28,4 +28,4 @@ jobs:
           author_email: 127977316+ivan-developer-01@users.noreply.github.com
           committer_name: NobodyKnows
           committer_email: nobodyknows@fullivanstack.com
-          message: "yay to you toy"
+          message: "yay to you toy\n\nCo-Authored-By: Tiger <tigera@ivananimals.com>\nCo-Authored-By: Lion <lion@ivananimals.com>"
