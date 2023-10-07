@@ -26,5 +26,6 @@ jobs:
           #default_author: github_actions
           author_name: Ivan
           author_email: 127977316+ivan-developer-01@users.noreply.github.com
-          committer_name: ghost
-          committer_email: sudoers@unexistingbranchcommitheysite.com
+          committer_name: NobodyKnows
+          committer_email: nobodyknows@fullivanstack.com
+          message: "yay to you toy"
