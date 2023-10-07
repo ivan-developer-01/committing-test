@@ -12,6 +12,12 @@ jobs:
     steps:
       - name: add some file
         run: echo "yay " >> test.md
+
+      - name: cd to parent
+        run: cd ../
+
+      - name: echo it works
+        run: echo it actually works
         
       - uses: EndBug/add-and-commit@v9
         with:
