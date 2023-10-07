@@ -1,0 +1,22 @@
+name: CI
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: add some file
+        run: echo "yay " >> test.md
+        
+      - uses: EndBug/add-and-commit@v9
+        with:
+          #default_author: github_actions
+          author_name: Argh Oink
+          author_email: argh@example.com
+          committer_name: Oink Oink
+          committer_email: oink@example.com
